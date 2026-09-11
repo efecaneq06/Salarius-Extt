@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lem1337" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="./Debug/lem1337" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug/" />
+				<Option deps_output="./Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DNOMINMAX" />
+					<Add option="-DKDLIBMODE" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-Wall" />
+					<Add directory="kdmapper-master/kdmapper/include/" />
+				</Compiler>
+				<Linker>
+					<Add library="d3d11.lib" />
+					<Add library="d3dcompiler.lib" />
+					<Add library="dxgi.lib" />
+					<Add library="dwmapi.lib" />
+					<Add library="version.lib" />
+					<Add library="winmm.lib" />
+					<Add library="comctl32.lib" />
+					<Add library="kernel32.lib" />
+					<Add library="user32.lib" />
+					<Add library="gdi32.lib" />
+					<Add library="winspool.lib" />
+					<Add library="comdlg32.lib" />
+					<Add library="advapi32.lib" />
+					<Add library="shell32.lib" />
+					<Add library="ole32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="uuid.lib" />
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+				</Linker>
+			</Target>
+			<Target title="Debug x64">
+				<Option output="./Debug/lem1337" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug/" />
+				<Option deps_output="./Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DNOMINMAX" />
+					<Add option="-DKDLIBMODE" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-Wall" />
+					<Add directory="kdmapper-master/kdmapper/include/" />
+				</Compiler>
+				<Linker>
+					<Add library="d3d11.lib" />
+					<Add library="d3dcompiler.lib" />
+					<Add library="dxgi.lib" />
+					<Add library="dwmapi.lib" />
+					<Add library="version.lib" />
+					<Add library="winmm.lib" />
+					<Add library="comctl32.lib" />
+					<Add library="kernel32.lib" />
+					<Add library="user32.lib" />
+					<Add library="gdi32.lib" />
+					<Add library="winspool.lib" />
+					<Add library="comdlg32.lib" />
+					<Add library="advapi32.lib" />
+					<Add library="shell32.lib" />
+					<Add library="ole32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="uuid.lib" />
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release x64">
+				<Option output="./Release/ploxied" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release/" />
+				<Option deps_output="./Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNOMINMAX" />
+					<Add option="-DKDLIBMODE" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add directory="kdmapper-master/kdmapper/include/" />
+				</Compiler>
+				<Linker>
+					<Add option="-static -static-libgcc -static-libstdc++ -lversion" />
+					<Add library="ntdll" />
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="d3d11" />
+					<Add library="d3dcompiler" />
+					<Add library="dxgi" />
+					<Add library="dwmapi" />
+					<Add library="version" />
+					<Add library="winmm" />
+					<Add library="comctl32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="./Release/lem1337" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release/" />
+				<Option deps_output="./Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DNOMINMAX" />
+					<Add option="-DKDLIBMODE" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-Wall" />
+					<Add directory="kdmapper-master/kdmapper/include/" />
+				</Compiler>
+				<Linker>
+					<Add library="d3d11.lib" />
+					<Add library="d3dcompiler.lib" />
+					<Add library="dxgi.lib" />
+					<Add library="dwmapi.lib" />
+					<Add library="version.lib" />
+					<Add library="winmm.lib" />
+					<Add library="comctl32.lib" />
+					<Add library="kernel32.lib" />
+					<Add library="user32.lib" />
+					<Add library="gdi32.lib" />
+					<Add library="winspool.lib" />
+					<Add library="comdlg32.lib" />
+					<Add library="advapi32.lib" />
+					<Add library="shell32.lib" />
+					<Add library="ole32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="uuid.lib" />
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="cheat/aimbot.h" />
+		<Unit filename="cheat/bhop.h" />
+		<Unit filename="cheat/bombtimer.h" />
+		<Unit filename="cheat/cfg.h" />
+		<Unit filename="cheat/config_system.h" />
+		<Unit filename="cheat/cstrike.h" />
+		<Unit filename="cheat/drawing.h" />
+		<Unit filename="cheat/entity.h" />
+		<Unit filename="cheat/math.h" />
+		<Unit filename="cheat/noflash.h" />
+		<Unit filename="cheat/offsets.h" />
+		<Unit filename="cheat/overlay.h" />
+		<Unit filename="cheat/rcs.h" />
+		<Unit filename="cheat/sdk.h" />
+		<Unit filename="cheat/spectator.h" />
+		<Unit filename="ext/driver_loader.h" />
+		<Unit filename="ext/imgui/imconfig.h" />
+		<Unit filename="ext/imgui/imgui.cpp" />
+		<Unit filename="ext/imgui/imgui.h" />
+		<Unit filename="ext/imgui/imgui_demo.cpp">
+			<Option target="Debug Win32" />
+			<Option target="Debug x64" />
+			<Option target="Release Win32" />
+		</Unit>
+		<Unit filename="ext/imgui/imgui_draw.cpp" />
+		<Unit filename="ext/imgui/imgui_impl_dx11.cpp" />
+		<Unit filename="ext/imgui/imgui_impl_dx11.h" />
+		<Unit filename="ext/imgui/imgui_impl_win32.cpp" />
+		<Unit filename="ext/imgui/imgui_impl_win32.h" />
+		<Unit filename="ext/imgui/imgui_internal.h" />
+		<Unit filename="ext/imgui/imgui_tables.cpp" />
+		<Unit filename="ext/imgui/imgui_widgets.cpp" />
+		<Unit filename="ext/imgui/imstb_rectpack.h" />
+		<Unit filename="ext/imgui/imstb_textedit.h" />
+		<Unit filename="ext/imgui/imstb_truetype.h" />
+		<Unit filename="ext/memory.h" />
+		<Unit filename="ext/nanosvg_impl.cpp" />
+		<Unit filename="ext/stb_image_impl.cpp" />
+		<Unit filename="kdmapper-master/kdmapper/include/intel_driver.hpp" />
+		<Unit filename="kdmapper-master/kdmapper/include/intel_driver_resource.hpp" />
+		<Unit filename="kdmapper-master/kdmapper/include/kdmapper.hpp" />
+		<Unit filename="kdmapper-master/kdmapper/include/nt.hpp" />
+		<Unit filename="kdmapper-master/kdmapper/include/portable_executable.hpp" />
+		<Unit filename="kdmapper-master/kdmapper/include/service.hpp" />
+		<Unit filename="kdmapper-master/kdmapper/include/utils.hpp" />
+		<Unit filename="kdmapper-master/kdmapper/intel_driver.cpp" />
+		<Unit filename="kdmapper-master/kdmapper/kdmapper.cpp" />
+		<Unit filename="kdmapper-master/kdmapper/main.cpp" />
+		<Unit filename="kdmapper-master/kdmapper/portable_executable.cpp" />
+		<Unit filename="kdmapper-master/kdmapper/service.cpp" />
+		<Unit filename="kdmapper-master/kdmapper/utils.cpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

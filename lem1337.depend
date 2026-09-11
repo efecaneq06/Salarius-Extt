@@ -1,0 +1,582 @@
+# depslib dependency file v1.0
+1743799742 source:c:\users\monster\desktop\cs2 project\ext\imgui\imgui.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdio.h>
+	<stdint.h>
+	<Windows.h>
+	<windows.h>
+	<TargetConditionals.h>
+	"stb_sprintf.h"
+	<Carbon/Carbon.h>
+	<shellapi.h>
+	<sys/wait.h>
+	<unistd.h>
+	<imm.h>
+	"imgui_user.inl"
+
+1739336650 c:\users\monster\desktop\cs2 project\ext\imgui\imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	"imgui_user.h"
+
+1739336650 c:\users\monster\desktop\cs2 project\ext\imgui\imconfig.h
+
+1739336650 c:\users\monster\desktop\cs2 project\ext\imgui\imgui_internal.h
+	"imgui.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<limits.h>
+	<immintrin.h>
+	<nmmintrin.h>
+
+1743200992 source:c:\users\monster\desktop\cs2 project\ext\imgui\imgui_demo.cpp
+	"imgui.h"
+	<ctype.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<inttypes.h>
+
+1739336650 source:c:\users\monster\desktop\cs2 project\ext\imgui\imgui_draw.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	"misc/freetype/imgui_freetype.h"
+	<stdio.h>
+	"imstb_rectpack.h"
+	"imstb_truetype.h"
+
+1739336650 c:\users\monster\desktop\cs2 project\ext\imgui\imstb_rectpack.h
+	<stdlib.h>
+	<assert.h>
+
+1739336650 c:\users\monster\desktop\cs2 project\ext\imgui\imstb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1739336650 source:c:\users\monster\desktop\cs2 project\ext\imgui\imgui_impl_dx11.cpp
+	"imgui.h"
+	"imgui_impl_dx11.h"
+	<stdio.h>
+	<d3d11.h>
+	<d3dcompiler.h>
+
+1739336650 c:\users\monster\desktop\cs2 project\ext\imgui\imgui_impl_dx11.h
+	"imgui.h"
+
+1739336650 source:c:\users\monster\desktop\cs2 project\ext\imgui\imgui_impl_win32.cpp
+	"imgui.h"
+	"imgui_impl_win32.h"
+	<windows.h>
+	<windowsx.h>
+	<tchar.h>
+	<dwmapi.h>
+	<xinput.h>
+
+1739336650 c:\users\monster\desktop\cs2 project\ext\imgui\imgui_impl_win32.h
+	"imgui.h"
+
+1739336650 source:c:\users\monster\desktop\cs2 project\ext\imgui\imgui_tables.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdint.h>
+
+1739336650 source:c:\users\monster\desktop\cs2 project\ext\imgui\imgui_widgets.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdint.h>
+	"imstb_textedit.h"
+	"imstb_textedit.h"
+
+1739336650 c:\users\monster\desktop\cs2 project\ext\imgui\imstb_textedit.h
+	<string.h>
+
+1770885821 source:c:\users\monster\desktop\cs2 project\ext\nanosvg_impl.cpp
+	"nanosvg.h"
+	"nanosvgrast.h"
+
+1770885815 c:\users\monster\desktop\cs2 project\ext\nanosvg.h
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1775350763 c:\users\monster\desktop\cs2 project\ext\nanosvgrast.h
+	"nanosvg.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+
+1770885625 source:c:\users\monster\desktop\cs2 project\ext\stb_image_impl.cpp
+	"stb_image.h"
+
+1770885613 c:\users\monster\desktop\cs2 project\ext\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1766450205 source:c:\users\monster\desktop\cs2 project\kdmapper-master\kdmapper\main.cpp
+	<Windows.h>
+	<iostream>
+	<string>
+	<vector>
+	<filesystem>
+	<TlHelp32.h>
+	"kdmapper.hpp"
+	"utils.hpp"
+	"intel_driver.hpp"
+	"KDSymbolsHandler.h"
+
+1766450205 c:\users\monster\desktop\cs2 project\kdmapper-master\kdmapper\include\\kdmapper.hpp
+	<Windows.h>
+
+1775237846 c:\users\monster\desktop\cs2 project\kdmapper-master\kdmapper\include\\utils.hpp
+	<Windows.h>
+	<string>
+	<vector>
+	<iostream>
+	<cstdint>
+
+1775237850 c:\users\monster\desktop\cs2 project\kdmapper-master\kdmapper\include\\intel_driver.hpp
+	<Windows.h>
+	<string>
+	<iostream>
+	<cstdint>
+	"utils.hpp"
+	"nt.hpp"
+
+1766450205 c:\users\monster\desktop\cs2 project\kdmapper-master\kdmapper\include\\nt.hpp
+	<Windows.h>
+	<winternl.h>
+	<ntstatus.h>
+
+1766450205 c:\users\monster\desktop\cs2 project\kdmapper-master\kdmapper\include\\kdsymbolshandler.h
+	<string>
+	<vector>
+
+1766450205 source:c:\users\monster\desktop\cs2 project\kdmapper-master\kdmapper\portable_executable.cpp
+	"portable_executable.hpp"
+	<Windows.h>
+	<string>
+
+1766450205 c:\users\monster\desktop\cs2 project\kdmapper-master\kdmapper\include\\portable_executable.hpp
+	<Windows.h>
+	<vector>
+	<string>
+
+1775925945 source:c:\users\monster\desktop\cs2 project\main.cpp
+	<iostream>
+	"ext/driver_loader.h"
+	"cheat/weapon_icons.h"
+	"cheat/cstrike.h"
+	"cheat/aimbot.h"
+	"cheat/radar.h"
+	"cheat/rcs.h"
+	"cheat/bhop.h"
+	"cheat/noflash.h"
+	"cheat/spectator.h"
+	"cheat/bombtimer.h"
+	"cheat/config_system.h"
+	<filesystem>
+	<windows.h>
+
+1775321854 c:\users\monster\desktop\cs2 project\ext\driver_loader.h
+	<Windows.h>
+	<iostream>
+	<filesystem>
+	<vector>
+	<string>
+	<fstream>
+	"utils.hpp"
+	"intel_driver.hpp"
+	"kdmapper.hpp"
+	"embedded_driver.h"
+
+1770986797 c:\users\monster\desktop\cs2 project\ext\embedded_driver.h
+
+1770986740 c:\users\monster\desktop\cs2 project\cheat\weapon_icons.h
+	<d3d11.h>
+	<unordered_map>
+	<string>
+	"../ext/nanosvg.h"
+	"../ext/nanosvgrast.h"
+	"embedded_weapons.h"
+
+1770986759 c:\users\monster\desktop\cs2 project\cheat\embedded_weapons.h
+
+1775263508 c:\users\monster\desktop\cs2 project\cheat\cstrike.h
+	"entity.h"
+	"cfg.h"
+	"drawing.h"
+	"math.h"
+	"sdk.h"
+	"weapon_icons.h"
+
+1775657550 c:\users\monster\desktop\cs2 project\cheat\entity.h
+	<vector>
+	<thread>
+	<iostream>
+	"../ext/memory.h"
+	"offsets.h"
+	"math.h"
+	"cfg.h"
+
+1775829286 c:\users\monster\desktop\cs2 project\ext\memory.h
+	<Windows.h>
+	<winioctl.h>
+	<string_view>
+	<iostream>
+	<memory>
+	<TlHelp32.h>
+
+1775921204 c:\users\monster\desktop\cs2 project\cheat\offsets.h
+	<cstdint>
+	<fstream>
+	<string>
+	<iostream>
+	<Windows.h>
+
+1770986671 c:\users\monster\desktop\cs2 project\cheat\math.h
+	<cmath>
+	"overlay.h"
+
+1775392182 c:\users\monster\desktop\cs2 project\cheat\overlay.h
+	<Windows.h>
+	<dwmapi.h>
+	"../ext/imgui/imgui.h"
+	"../ext/imgui/imgui_impl_win32.h"
+	"../ext/imgui/imgui_impl_dx11.h"
+	"../ext/imgui/imgui_internal.h"
+	<d3d11.h>
+	<thread>
+	<chrono>
+
+1775925806 c:\users\monster\desktop\cs2 project\cheat\cfg.h
+
+1770986729 c:\users\monster\desktop\cs2 project\cheat\drawing.h
+	"overlay.h"
+	"math.h"
+
+1745653429 c:\users\monster\desktop\cs2 project\cheat\sdk.h
+	"cstrike.h"
+
+1775680359 c:\users\monster\desktop\cs2 project\cheat\aimbot.h
+	"cstrike.h"
+	"cfg.h"
+	"sdk.h"
+	<cmath>
+	<algorithm>
+
+1770986695 c:\users\monster\desktop\cs2 project\cheat\radar.h
+	"../ext/imgui/imgui.h"
+	"entity.h"
+	"cfg.h"
+	<cmath>
+
+1766450205 source:c:\users\monster\desktop\cs2 project\kdmapper-master\kdmapper\kdmapper.cpp
+	"kdmapper.hpp"
+	<Windows.h>
+	<iostream>
+	"utils.hpp"
+	"intel_driver.hpp"
+	"nt.hpp"
+	"portable_executable.hpp"
+
+1766450205 source:c:\users\monster\desktop\cs2 project\kdmapper-master\kdmapper\service.cpp
+	"service.hpp"
+	<Windows.h>
+	<string>
+	<iostream>
+	"utils.hpp"
+	"nt.hpp"
+
+1766450205 c:\users\monster\desktop\cs2 project\kdmapper-master\kdmapper\include\\service.hpp
+	<string>
+	"nt.hpp"
+
+1775248618 source:c:\users\monster\desktop\cs2 project\kdmapper-master\kdmapper\utils.cpp
+	"utils.hpp"
+	<Windows.h>
+	<iostream>
+	<vector>
+	<fstream>
+	"nt.hpp"
+
+1775248631 source:c:\users\monster\desktop\cs2 project\kdmapper-master\kdmapper\intel_driver.cpp
+	"intel_driver.hpp"
+	<Windows.h>
+	<string>
+	<fstream>
+	<memory>
+	"utils.hpp"
+	"intel_driver_resource.hpp"
+	"service.hpp"
+	"nt.hpp"
+	"portable_executable.hpp"
+	"KDSymbolsHandler.h"
+
+1766450205 c:\users\monster\desktop\cs2 project\kdmapper-master\kdmapper\include\\intel_driver_resource.hpp
+	<stdint.h>
+
+1775418688 c:\users\monster\desktop\cs2 project\cheat\rcs.h
+	<algorithm>
+	"sdk.h"
+	"cfg.h"
+
+1775735952 c:\users\monster\desktop\cs2 project\cheat\bhop.h
+	<Windows.h>
+	<thread>
+	"cstrike.h"
+	"cfg.h"
+	"sdk.h"
+
+1775394234 c:\users\monster\desktop\cs2 project\cheat\noflash.h
+	"cstrike.h"
+	"cfg.h"
+	"sdk.h"
+
+1775926786 c:\users\monster\desktop\cs2 project\cheat\spectator.h
+	<vector>
+	<string>
+	"entity.h"
+	"offsets.h"
+
+1775673496 c:\users\monster\desktop\cs2 project\cheat\bombtimer.h
+	"sdk.h"
+	<Windows.h>
+	"cfg.h"
+
+1775925910 c:\users\monster\desktop\cs2 project\cheat\config_system.h
+	<fstream>
+	<string>
+	"cfg.h"
+	"json.hpp"
+
+1775493127 c:\users\monster\desktop\cs2 project\cheat\json.hpp
+	<algorithm>
+	<cstddef>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<memory>
+	<string>
+	<utility>
+	<vector>
+	<utility>
+	<algorithm>
+	<array>
+	<forward_list>
+	<iterator>
+	<map>
+	<optional>
+	<string>
+	<tuple>
+	<type_traits>
+	<unordered_map>
+	<utility>
+	<valarray>
+	<cstddef>
+	<exception>
+	<numeric>
+	<stdexcept>
+	<string>
+	<vector>
+	<array>
+	<cstddef>
+	<cstdint>
+	<string>
+	<utility>
+	<type_traits>
+	<stdint.h>
+	<stdint.h>
+	<version>
+	<cstdlib>
+	<cassert>
+	<compare>
+	<cstddef>
+	<array>
+	<cstddef>
+	<type_traits>
+	<utility>
+	<limits>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<iterator>
+	<cstdint>
+	<map>
+	<memory>
+	<string>
+	<vector>
+	<cstring>
+	<string>
+	<utility>
+	<experimental/filesystem>
+	<filesystem>
+	<optional>
+	<algorithm>
+	<iterator>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<valarray>
+	<vector>
+	<cstddef>
+	<iterator>
+	<tuple>
+	<utility>
+	<ranges>
+	<cstddef>
+	<string>
+	<cstdint>
+	<tuple>
+	<utility>
+	<cstdint>
+	<cstddef>
+	<functional>
+	<algorithm>
+	<array>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<cstring>
+	<iterator>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<bit>
+	<array>
+	<cstddef>
+	<cstring>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<type_traits>
+	<utility>
+	<cstdio>
+	<istream>
+	<cstddef>
+	<string>
+	<type_traits>
+	<utility>
+	<vector>
+	<array>
+	<clocale>
+	<cstddef>
+	<cstdio>
+	<cstdlib>
+	<initializer_list>
+	<string>
+	<utility>
+	<vector>
+	<cstdint>
+	<utility>
+	<string>
+	<cmath>
+	<cstdint>
+	<functional>
+	<string>
+	<utility>
+	<vector>
+	<cstddef>
+	<limits>
+	<iterator>
+	<type_traits>
+	<cstddef>
+	<iterator>
+	<utility>
+	<type_traits>
+	<algorithm>
+	<cctype>
+	<cerrno>
+	<cstdlib>
+	<iosfwd>
+	<limits>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<initializer_list>
+	<utility>
+	<algorithm>
+	<array>
+	<map>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<algorithm>
+	<cstddef>
+	<iterator>
+	<memory>
+	<string>
+	<vector>
+	<ios>
+	<ostream>
+	<algorithm>
+	<array>
+	<clocale>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<limits>
+	<string>
+	<iomanip>
+	<type_traits>
+	<utility>
+	<array>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<type_traits>
+	<functional>
+	<initializer_list>
+	<iterator>
+	<memory>
+	<stdexcept>
+	<type_traits>
+	<utility>
+	<vector>
+	<any>
+	<string_view>
+
